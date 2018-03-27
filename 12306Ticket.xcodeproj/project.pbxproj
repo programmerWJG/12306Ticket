@@ -13,6 +13,8 @@
 		2F327511206A25F000AB223F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F327510206A25F000AB223F /* Assets.xcassets */; };
 		2F327514206A25F000AB223F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F327512206A25F000AB223F /* LaunchScreen.storyboard */; };
 		2F327517206A25F000AB223F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F327516206A25F000AB223F /* main.m */; };
+		2F327529206A2B1E00AB223F /* CPLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F327527206A2B1E00AB223F /* CPLeftViewController.m */; };
+		2F32752A206A2B1E00AB223F /* CPLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F327528206A2B1E00AB223F /* CPLeftViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		2F327513206A25F000AB223F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F327515206A25F000AB223F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F327516206A25F000AB223F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F327526206A2B1E00AB223F /* CPLeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPLeftViewController.h; sourceTree = "<group>"; };
+		2F327527206A2B1E00AB223F /* CPLeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPLeftViewController.m; sourceTree = "<group>"; };
+		2F327528206A2B1E00AB223F /* CPLeftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CPLeftViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +67,7 @@
 				2F327508206A25F000AB223F /* AppDelegate.m */,
 				2F32750A206A25F000AB223F /* ViewController.h */,
 				2F32750B206A25F000AB223F /* ViewController.m */,
-				2F32751D206A263E00AB223F /* UserDirectory */,
+				2F327523206A2A7200AB223F /* UserDirectory */,
 				2F32750D206A25F000AB223F /* Main.storyboard */,
 				2F327510206A25F000AB223F /* Assets.xcassets */,
 				2F327512206A25F000AB223F /* LaunchScreen.storyboard */,
@@ -72,23 +77,26 @@
 			path = 12306Ticket;
 			sourceTree = "<group>";
 		};
-		2F32751D206A263E00AB223F /* UserDirectory */ = {
+		2F327523206A2A7200AB223F /* UserDirectory */ = {
 			isa = PBXGroup;
 			children = (
-				2F32751E206A263E00AB223F /* CP-Files */,
-				2F32751F206A263E00AB223F /* WJG-Files */,
+				2F327524206A2A7200AB223F /* CP-Files */,
+				2F327525206A2A7200AB223F /* WJG-Files */,
 			);
 			path = UserDirectory;
 			sourceTree = "<group>";
 		};
-		2F32751E206A263E00AB223F /* CP-Files */ = {
+		2F327524206A2A7200AB223F /* CP-Files */ = {
 			isa = PBXGroup;
 			children = (
+				2F327526206A2B1E00AB223F /* CPLeftViewController.h */,
+				2F327527206A2B1E00AB223F /* CPLeftViewController.m */,
+				2F327528206A2B1E00AB223F /* CPLeftViewController.xib */,
 			);
 			path = "CP-Files";
 			sourceTree = "<group>";
 		};
-		2F32751F206A263E00AB223F /* WJG-Files */ = {
+		2F327525206A2A7200AB223F /* WJG-Files */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -155,6 +163,7 @@
 			files = (
 				2F327514206A25F000AB223F /* LaunchScreen.storyboard in Resources */,
 				2F327511206A25F000AB223F /* Assets.xcassets in Resources */,
+				2F32752A206A2B1E00AB223F /* CPLeftViewController.xib in Resources */,
 				2F32750F206A25F000AB223F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +177,7 @@
 			files = (
 				2F32750C206A25F000AB223F /* ViewController.m in Sources */,
 				2F327517206A25F000AB223F /* main.m in Sources */,
+				2F327529206A2B1E00AB223F /* CPLeftViewController.m in Sources */,
 				2F327509206A25F000AB223F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
