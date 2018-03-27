@@ -13,8 +13,12 @@
 		2F327511206A25F000AB223F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F327510206A25F000AB223F /* Assets.xcassets */; };
 		2F327514206A25F000AB223F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F327512206A25F000AB223F /* LaunchScreen.storyboard */; };
 		2F327517206A25F000AB223F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F327516206A25F000AB223F /* main.m */; };
-		2F327529206A2B1E00AB223F /* CPLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F327527206A2B1E00AB223F /* CPLeftViewController.m */; };
+
+2F327529206A2B1E00AB223F /* CPLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F327527206A2B1E00AB223F /* CPLeftViewController.m */; };
 		2F32752A206A2B1E00AB223F /* CPLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F327528206A2B1E00AB223F /* CPLeftViewController.xib */; };
+
+2F327522206A296B00AB223F /* JGLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F327521206A296B00AB223F /* JGLoginModel.m */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +32,14 @@
 		2F327513206A25F000AB223F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F327515206A25F000AB223F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F327516206A25F000AB223F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F327526206A2B1E00AB223F /* CPLeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPLeftViewController.h; sourceTree = "<group>"; };
+
+2F327526206A2B1E00AB223F /* CPLeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPLeftViewController.h; sourceTree = "<group>"; };
 		2F327527206A2B1E00AB223F /* CPLeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPLeftViewController.m; sourceTree = "<group>"; };
 		2F327528206A2B1E00AB223F /* CPLeftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CPLeftViewController.xib; sourceTree = "<group>"; };
+
+2F327520206A296B00AB223F /* JGLoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGLoginModel.h; sourceTree = "<group>"; };
+		2F327521206A296B00AB223F /* JGLoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGLoginModel.m; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +108,8 @@
 		2F327525206A2A7200AB223F /* WJG-Files */ = {
 			isa = PBXGroup;
 			children = (
+				2F327520206A296B00AB223F /* JGLoginModel.h */,
+				2F327521206A296B00AB223F /* JGLoginModel.m */,
 			);
 			path = "WJG-Files";
 			sourceTree = "<group>";
@@ -175,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F327522206A296B00AB223F /* JGLoginModel.m in Sources */,
 				2F32750C206A25F000AB223F /* ViewController.m in Sources */,
 				2F327517206A25F000AB223F /* main.m in Sources */,
 				2F327529206A2B1E00AB223F /* CPLeftViewController.m in Sources */,
